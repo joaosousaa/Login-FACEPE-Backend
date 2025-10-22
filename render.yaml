@@ -5,5 +5,5 @@ services:
     region: oregon
     branch: main
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: npm src/index.js
     autoDeploy: true
